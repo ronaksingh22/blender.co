@@ -3,7 +3,7 @@
 import json
 import requests
 
-address= "0x71C7656EC7ab88b098defB751B7401B5f6d8976F"
+address=input("Enter addess: ")
 
 #returns 10 last records from the oldest to the newest
 #However, this can give 10,000 records max
