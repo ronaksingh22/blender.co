@@ -1,0 +1,30 @@
+.footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    
+    font-family: sans-serif;
+    background-color: black;
+
+    width: 1100px;
+
+    position:absolute;
+    bottom:0;
+    margin-right: 100px;
+
+    width: 100%;
+    
+    justify-content: space-evenly;
+    
+  }
+
+.footer_links {
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.Link {
+    color: white;
+}

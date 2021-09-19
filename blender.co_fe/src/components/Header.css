@@ -1,0 +1,56 @@
+
+.header {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+    font-family: sans-serif;
+  }
+  
+
+  .header_txt {
+    display: flex;
+    font-size: 80px;
+    margin-left: 50px;
+  }
+  
+  .header__logo {
+    object-fit: contain;
+    margin-left: 10px;
+    height: 60px;
+  }
+  
+  .header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 25px;
+    width: 500px;
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .profile_button {
+      transform: scale(2.5);
+  }
+
+  .AccountBoxIcon {
+    margin-bottom: 20px;
+  }
